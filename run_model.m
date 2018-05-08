@@ -20,12 +20,12 @@ C3max = 36;
 gq = 1;
 gC1 = 1;
 gC2 = 1;
-gC3 = 0;
+gC3 = 1;
 
 %stany poczatkowe
-H10 = 0;%31.75;
-H20 = 0;%36.18;
-H30 = 0;%35.91;
+H10 = 15;%31.75;
+H20 = 30;%36.18;
+H30 = 0.01;%35.91; %initial wiêkszy od zera
 
 %stopnie pierwiastkow
 p1 = 0.41;
