@@ -11,7 +11,7 @@ Hmax = 40;
 
 %parametry przeplywow
 %max
-qmax = 40;
+qmax = 133.63;%równy przep³yw 107.48;
 C1max = 36.9;
 C2max = 33.91;
 C3max = 36;
@@ -23,17 +23,22 @@ gC2 = 1;
 gC3 = 1;
 
 %stany poczatkowe
-H10 = 15;%31.75;
-H20 = 30;%36.18;
-H30 = 0.01;%35.91; %initial wiêkszy od zera
+H10 = 11.9703;%31.75;
+H20 = 15;%36.18;
+H30 = 12.5763;%35.91; %initial wiêkszy od zera
 
 %stopnie pierwiastkow
 p1 = 0.41;
 p2 = 0.46;
 p3 = 0.37;
 
+%offset
+D1 = 3.5673;
+D2 = 2.8498;
+D3 = 2.882;
+
 %parametry solvera
-T = 100;
+T = 1000;
 step = 0.1;
 
 sim('model_zb');
